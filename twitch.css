@@ -1,0 +1,1129 @@
+body{
+background-image: url('icons/Untitled\ design.png');
+background-repeat: no-repeat;
+}
+.box{
+  border: 3px solid #ddb892;
+  display: inline-block;
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+  width: 80rem;
+  height:40rem;
+  background-color: #ddb892;
+}
+.saudi-background{
+  height: 28rem;
+  position: relative;
+  top:5rem;
+  left:14rem;
+}
+h1{
+  position: relative;
+  bottom:28rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 2rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 700;
+  right:3rem;
+}
+h2{
+  position: relative;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 2rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 700;
+  right: 3rem;
+}
+#riyadh{
+  position: relative;
+  bottom: 8rem;
+  background-color: #005430;
+  padding: 8px;
+  width:6rem;
+  margin-left: 1rem;
+  color:#ddb892
+} 
+#jeddah{
+  position: relative;
+  bottom:4rem;
+  right:2rem;
+  background-color: #005430;
+  padding: 8px;
+  width:6rem;
+  margin-right: 1rem;
+  color:#ddb892
+}
+#fahad{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 8px;
+  width:6rem;
+  bottom:4rem;
+  right:1rem;
+  margin-left: 1rem;
+}
+#makkah{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 8px;
+  width:6rem;
+  bottom: 8rem;
+  left: 42rem;
+  margin-left: 7rem;
+}
+#south{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 8px;
+  width:6rem;
+  bottom:4rem;
+  left:15rem;
+  margin-left:2rem;
+}
+#east{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 8px;
+  width:6rem;
+  bottom:4rem;
+  left:17rem;
+  margin-left: 3rem;
+}
+.dirat-fahad{
+  border: 3px solid #ddb892;
+  display: inline-block;
+  position: relative;
+  top: 13.5rem;
+  left:2rem;
+  width: 80rem;
+  height:40rem;
+  background-color: #ddb892;
+}
+#fahad-starter-pack{
+  position: relative;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 2rem;
+  bottom: 28rem;
+  word-spacing: 1.5rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: bolder;
+}
+#law{
+  position: absolute;
+  height:30rem;
+  top: 12rem;
+  left: 15rem;
+}
+ul {
+  list-style: none;
+  position: relative;
+  text-align: right;
+  line-height: 3rem;
+}
+#famous-quotes{
+  font-weight: bolder;
+  font-size: 20px;
+  bottom:55%;
+  margin-left: 22.3rem;
+  left:3.5px;
+}
+#marriage{
+  border: 1px solid #9c6644;
+  background-color: #9c6644 ;
+  margin-left: 37rem;
+  opacity: 0.5;
+  margin-top: 1rem;
+  color:white;
+}
+#lebanese-accent{
+  border: 1px solid #9c6644;
+  background-color: #9c6644 ;
+  margin-left: 37rem;
+  opacity: 0.5;
+  margin-top: 2rem;
+  color: white;
+}
+#tea{
+  border: 1px solid #9c6644;
+  background-color: #9c6644 ;
+  margin-left: 37rem;
+  opacity: 0.5;
+  margin-top: 2rem;
+  color:white;
+}
+#fhad{
+  position: relative;
+  display: inline-block;
+  height:31rem;
+  top:5rem;
+  margin-left: 15rem;
+}
+#btm{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 5px;
+  width:8rem;
+  bottom: 45em;
+  left: 70rem;
+}
+.riyadh{
+  border: 3px solid #ddb892;
+  display: inline-block;
+  position: relative;
+  top: 13.5rem;
+  width: 80rem;
+  height:40rem;
+  left: 2rem;
+  background-color: #ddb892;
+}
+#ryad{
+  position: relative;
+  text-align: center;
+  top:3%;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+#nickname{
+  position: relative;
+  top:2rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#bttm{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 5px;
+  width:8rem;
+  left: 67rem;
+  bottom: 4rem;
+}
+#palms{
+  position: relative;
+  height: 100px;
+  top: 3rem;
+}
+#rr{
+  position: relative;
+  top:4rem;
+}
+.content {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left: 4rem;
+  top: 8rem;
+  margin-top: 1rem;
+}
+.card1:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front,
+.back {
+  position: absolute;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  font-size: 20px;
+}
+#kingdom-center{
+  height: 100px;
+  position: relative;
+  top:3rem;
+}
+#rr2{
+  position: relative;
+  top:4rem;
+}
+.content2 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  top: 7rem;
+  margin-top: 2rem;
+  margin-left: 24rem;
+}
+.card2:hover .content2 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front2,
+.back2 {
+  position: relative;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back2 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  bottom: 13rem;
+  font-size: 20px;
+}
+#hotel{
+  position: relative;
+  height: 100px;
+  top: 3rem;
+}
+#rr2{
+  position: absolute;
+  font-size: 17px;
+  bottom:2rem;
+}
+.content3 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left:44rem;
+  top: 7rem;
+  margin-top: 2rem;
+}
+.card3:hover .content3{
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front3,
+.back3 {
+  position: absolute;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back3 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  font-size: 20px;
+}
+#uni{
+  position: relative;
+  height: 100px;
+  top:3rem;
+}
+#rr3{
+  position: relative;
+  top: 3rem;
+  font-size: 25px;
+  font-family: 'Amiri', sans-serif;
+}
+.content4 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left: 63rem;
+  top: 7rem;
+  margin-top: 2rem;
+}
+.card4:hover .content4{
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front4,
+.back4 {
+  position: relative;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back4 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  bottom: 14rem;
+  font-size: 20px;
+}
+#rr5{
+  position: relative;
+  top: 3rem;
+  font-size: 25px;
+  font-family: 'Amiri', sans-serif;
+}
+.content5 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left: 63rem;
+  top: 25rem;
+}
+.card5:hover .content5{
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front5,
+.back5 {
+  position: relative;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back5 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  bottom: 14rem;
+  font-size: 20px;
+}
+#muslim {
+  position: relative;
+  height: 100px;
+  top:3rem;
+}
+#rr6{
+  position: relative;
+  top: 3rem;
+  font-size: 25px;
+  font-family: 'Amiri', sans-serif;
+}
+.content6 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left: 44rem;
+  top: 25rem;
+}
+.card6:hover .content6{
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front6,
+.back6 {
+  position: relative;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back6 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  bottom: 14rem;
+  font-size: 20px;
+}
+#chicken {
+  position: relative;
+  height: 100px;
+  top:3rem;
+}
+#rr7{
+  position: relative;
+  top: 3rem;
+  font-size: 25px;
+  font-family: 'Amiri', sans-serif;
+}
+.content7 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left: 24rem;
+  top: 25rem;
+}
+.card7:hover .content7{
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front7,
+.back7 {
+  position: relative;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back7 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  bottom: 14rem;
+  font-size: 20px;
+}
+#laww {
+  position: relative;
+  height: 100px;
+  top:3rem;
+}
+#rr8{
+  position: relative;
+  top: 3rem;
+  font-size: 25px;
+  font-family: 'Amiri', sans-serif;
+}
+.content8 {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  left: 4rem;
+  top: 25rem;
+}
+.card8:hover .content8{
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.front8,
+.back8 {
+  position: relative;
+  background: #9c6644;
+  color: #9c6644;
+  text-align: center;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  height: 225px;
+  width: 225px;
+}
+.back8 {
+  position: relative;
+  background: #9c6644;
+  color: white;
+  transform: rotateY( 180deg );
+  bottom: 14rem;
+  font-size: 20px;
+}
+#arabian {
+  position: relative;
+  height: 100px;
+  top:3rem;
+}
+.jeddah{
+  border: 3px solid #669bbc;
+  display: inline-block;
+  position: relative;
+  top: 13.5rem;
+  left: 2rem;
+  width: 80rem;
+  height:40rem;
+  background-color: #669bbc;
+}
+#jedah{
+  position: relative;
+  top: 1rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#nickname2 {
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  top:2rem;
+}
+#bttn{
+  position: relative;
+  background-color: white;
+  border: 1px solid white;
+  color: #669bbc;
+  padding: 8px;
+  width:9rem;
+  left: 85%;
+  bottom:3rem;
+  font-weight: 700;
+}
+#jeddah-day{
+  height: 27rem;
+  position: relative;
+  top:1.5rem;
+  left:13rem;
+}
+#jeddah-night{
+  height: 27rem;
+  position: relative;
+  top:1.5rem;
+  left:13rem;
+}
+#sun{
+  background-color: white;
+  border: 1px solid white;
+  padding: 5px 25px;
+  color:#669bbc;
+  position: relative;
+  bottom: 8rem;
+  font-weight: 800;
+  left: 1rem;
+}
+#moon{
+  background-color: white;
+  border: 1px solid white;
+  padding: 5px 25px;
+  color:#669bbc;
+  position: relative;
+  bottom: 8rem;
+  left: 2rem;
+}
+.south{
+  border: 3px solid #ddb892;
+  display: inline-block;
+  position: relative;
+  top: 13.5rem;
+  width: 80rem;
+  height:40rem;
+  background-color: #ddb892;
+  left:2rem;
+}
+#pol{
+  text-align: center;
+  position: absolute;
+  right: 24rem;
+  top: 2rem;
+  font-size: 2rem;
+}
+#pol-arabic{
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  position: absolute;
+  top: 4rem;
+  font-size: 3rem;
+  right:30rem;
+}
+#leila{
+  position:absolute;
+  top: 7rem;
+  left:1rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+}
+#leilas-photo{
+  position: absolute;
+  bottom: 20.5rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  left:5rem;
+}
+#leilas-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:20rem;
+  left:1.5rem;
+  font-size: 20px;
+}
+#btn{
+  position: absolute;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 5px;
+  width:8rem;
+  bottom:35rem;
+  left: 70rem;
+}
+#haru{
+  position: absolute;
+  top: 7rem;
+  left:10rem;
+  height: 12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+  margin-bottom: 2px;
+  margin-left: 3rem;
+}
+#harus-photo{
+  position: absolute;
+  bottom: 20.5rem;
+  left:16.5rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+#harus-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:20rem;
+  left:13.5rem;
+  font-size: 20px;
+}
+#aser{
+  position: absolute;
+  bottom: 20rem;
+  left:50rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+  margin-left: 300px;
+}
+#asers-photo{
+  position: absolute;
+  bottom: 20rem;
+  left:94%;
+  font-family: "Amiri", sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+}
+#asers-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 900;
+  bottom:19rem;
+  left:86.5%;
+  font-size: 20px;
+}
+#jana{
+  position: absolute;
+  bottom: 20rem;
+  left:38rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+  margin-left: 300px;
+}
+#janas-photo{
+  position: absolute;
+  bottom: 20rem;
+  left:78%;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+#janas-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:19rem;
+  left:72%;
+  font-size: 20px;
+}
+#mariam{
+  position: absolute;
+  bottom: 4rem;
+  left:1rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+}
+#mariams-photo{
+  position: absolute;
+  bottom: 4rem;
+  left:5rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+}
+#mariams-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:3rem;
+  left:2rem;
+  font-size: 22px;
+}
+#robin{
+  position: absolute;
+  bottom: 4rem;
+  left:13rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+}
+#robins-photo{
+  position: absolute;
+  bottom: 3.5rem;
+  left:18rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+}
+#robins-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:3rem;
+  left:13rem;
+  font-size: 20px;
+}
+#abdallah{
+  position: absolute;
+  bottom: 4rem;
+  left:69rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+}
+#abdallahs-photo{
+  position: absolute;
+  bottom: 3.5rem;
+  left:74rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+}
+#abdallahs-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:3rem;
+  left:69rem;
+  font-size: 20px;
+}
+#reham{
+  position: absolute;
+  bottom: 4rem;
+  left:57rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+}
+#rehams-photo{
+  position: absolute;
+  bottom: 3.5rem;
+  left:62rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+}
+#rehams-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:3rem;
+  left:58rem;
+  font-size: 20px;
+}
+#aseel{
+  position: absolute;
+  bottom: 12rem;
+  left:34rem;
+  height:12rem;
+  width: 9rem;
+  border: 7px solid white;
+  border-bottom: 3rem solid white;
+}
+#aseels-photo{
+  position: absolute;
+  bottom: 12rem;
+  left:39rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  font-size: 23px;
+}
+#aseels-sign{
+  position: absolute;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+  bottom:11rem;
+  left:34rem;
+  font-size: 20px;
+}
+#mountain{
+  height: 70px;
+  position: absolute;
+  left: 25rem;
+  top: 31rem;
+}
+#forest{
+  height: 70px;
+  position: absolute;
+  left:25rem;
+  top:15rem;
+}
+#ecology{
+  height:70px;
+  position: absolute;
+  left:50rem;
+  top:15rem;
+}
+#landscape{
+  position: absolute;
+  height: 70px;
+  left:50rem;
+  top:31rem;
+}
+.east{
+  border: 3px solid #ddb892;
+  display: inline-block;
+  position: relative;
+  width: 80rem;
+  height:40rem;
+  background-color: #ddb892;
+  left: 2rem;
+  top: 13.5rem;
+}
+#sharkiyah{
+  position: relative;
+  top:1rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#bto{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 5px;
+  width:8rem;
+  margin-left:70rem;
+  margin-top:3px;
+}
+#follower{
+  position: absolute;
+  right: 31rem;
+  bottom: 36rem;
+  font-size: 2.5rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#follower2{
+  position: absolute;
+  right: 35rem;
+  bottom: 33rem;
+  font-size: 2rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#rules{
+  position: absolute;
+  background-color: #9c6644;
+  border-radius: 25% 10%;
+  width: 25rem;
+  height: 15rem;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+.game{
+  position: relative;
+  top: 15rem;
+  left: 15rem;
+}
+#progress{
+  width: 10rem;
+  height: 35px;
+  font-size: 20px;
+  color: #ddb892;
+  background-color:#005430;
+  position: relative;
+  left: 15rem;
+  top: 2rem;
+}
+#emoji-display{
+  position: relative;
+  left: 18rem;
+  font-size: 3rem;
+  bottom: 2rem;
+}
+#submit-btn{
+  background-color: #005430;
+  color:#ddb892;
+  padding: 5px;
+  position: relative;
+  left: 17rem;
+  width: 8rem;
+  font-size: 1.5rem;
+}
+#guess-input{
+  position: relative;
+  left: 15rem;
+  width: 23rem;
+  height: 3.5rem;
+  background-color: #005430;
+  color:#ddb892;
+  font-size: 1.5rem;
+}
+#palm{
+  position: relative;
+  height: 150px;
+  top: 2rem;
+  right: 15rem;
+}
+#dates{
+  position: relative;
+  height: 150px;
+  left: 45rem;
+  top:2rem;
+}
+.mekkah{
+   border: 3px solid #ddb892;
+  display: inline-block;
+  position: relative;
+  width: 80rem;
+  height:40rem;
+  background-color: #ddb892;
+  left: 2rem;
+  top: 13.5rem;
+}
+#city{
+  position: absolute;
+  right: 38rem;
+  bottom: 36rem;
+  font-size: 2rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#heart{
+  position: relative;
+  top: 1.5rem;
+  line-height: 6rem;
+  font-family: "Amiri", sans-serif;
+  font-weight: 800;
+}
+#btt{
+  position: relative;
+  background-color: #005430;
+  color: #ddb892;
+  padding: 5px;
+  width:8rem;
+  margin-left:70rem;
+  bottom: 4rem;
+}
+#aya1{
+  position:absolute;
+  top: 10rem;
+  border: 8px dotted #9c6644 ;
+  padding: 10px;
+  margin-left: 7rem;
+}
+#f{
+  font-weight: 900;
+  font-size: 2rem;
+}
+#baqarah{
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+#aya2{
+  position:absolute;
+  top: 8rem;
+  border: 8px dotted #9c6644 ;
+  padding: 10px;
+  margin-left: 35rem;
+  width: 40rem;
+}
+#a{
+  font-weight: 900;
+  font-size: 2rem;
+}
+#aya3{
+  position:absolute;
+  top: 19rem;
+  border: 8px dotted #9c6644 ;
+  padding: 10px;
+  margin-left: 35rem;
+  width: 40rem;
+}
+#h{
+  font-weight: 900;
+  font-size: 2rem;
+}
+#aya4{
+  position:absolute;
+  top: 18rem;
+  border: 8px dotted #9c6644 ;
+  padding: 10px;
+  margin-left: 7rem;
+}
+#shareh{
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+#aa{
+  font-weight: 900;
+  font-size: 2rem;
+}
+#aya5{
+  position:absolute;
+  top: 26rem;
+  border: 8px dotted #9c6644 ;
+  padding: 10px;
+  margin-left: 7rem;
+}
+#qasas{
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+#h{
+  font-weight: 900;
+  font-size: 2rem;
+}
+#aya6{
+  position:absolute;
+  top: 30rem;
+  border: 8px dotted #9c6644 ;
+  padding: 10px;
+  margin-left: 35rem;
+  width: 40rem;
+}
+#d{
+  font-weight: 900;
+  font-size: 2rem;
+}
+#qasas{
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+#kaaba{
+  height:180px;
+  position: relative;
+  left: 23rem;
+  top:6rem;
+}
+#mosque{
+  height: 160px;
+  position: relative;
+  bottom: 9rem;
+  right: 12rem;
+}
+#beads{
+  height: 120px;
+  position: absolute;
+  top: 32rem;
+  left: 1rem;
+}
