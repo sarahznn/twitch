@@ -180,6 +180,10 @@ document.addEventListener("DOMContentLoaded", function(){
             answer: "عبود17",
         },
         {
+            emoji: "🍍🧟🐅✋📷",
+            answer: "كينزا",
+        },
+        {
             emoji: "🔥🍍🧟📻",
             answer: "رزان",
         },
